@@ -36,8 +36,7 @@ navbar {
 main {
     position: relative;
     margin: auto;
-    width: 1080px;
-    max-width: 100vw;
+    max-width: 1080px;
     min-height: 100vh;
     background-color: var(--background);
     top: var(--headerheight);
@@ -47,8 +46,7 @@ main {
 footer {
     position: relative;
     margin: auto;
-    width: 1080px;
-    max-width: 100vw;
+    max-width: 1080px;
     background-color: var(--margins);
     top: var(--headerheight);
     padding: 8px;
