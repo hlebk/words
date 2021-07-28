@@ -199,8 +199,11 @@ a:active {
 
 #gotoapp {
     display: block;
+    width: 280px;
+}
+
+#startlearning {
+    width: 280px;
     margin: auto;
-    margin-top: 32px;
-    padding-left: 8px;
-    padding-right: 8px;
+    margin-top:32px;
 }
