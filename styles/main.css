@@ -1,0 +1,206 @@
+:root {
+    --headerheight: 64px;
+    --primary: #00675b;
+    --secondary: #52c7b8;
+    --margins: #d4d4d4;
+    --background: #ffffff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--margins);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: var(--headerheight);
+    margin-top: 0;
+    background-color: var(--primary);
+    z-index: 1;
+}
+
+navbar {
+    position: fixed;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    top: var(--headerheight);
+    display: none;
+    background-color: var(--primary);
+    z-index: 1;
+}
+
+main {
+    position: relative;
+    margin: auto;
+    width: 1080px;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--background);
+    top: var(--headerheight);
+    padding: 16px;
+}
+
+footer {
+    position: relative;
+    margin: auto;
+    width: 1080px;
+    max-width: 100vw;
+    background-color: var(--margins);
+    top: var(--headerheight);
+    padding: 8px;
+}
+
+#logotype {
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-family: 'Lobster', cursive;
+}
+
+#menu {
+    cursor: pointer;
+    margin: 1px;
+    background-color: var(--primary);
+    color: #ffffff;
+    position: absolute;
+    height: 62px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-radius: 10px;
+    font-size: 32px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+header a:visited {
+    color: white;
+}
+
+navbar > a {
+    display: block;
+    max-width: 100%;
+    width: 200px;
+    height: var(--headerheight);
+    color: #ffffff;
+    font-size: 32px;
+    padding: 0;
+    padding-left: 8px;
+    line-height: var(--headerheight);
+}
+
+navbar > a:visited {
+    color: #ffffff;
+}
+
+navbar > a:hover {
+    background-color: var(--secondary);
+}
+
+p {
+    margin: 0;
+}
+
+code {
+    display: block;
+    background-color: var(--margins);
+    width: 99%;
+    text-indent: 0;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+ol {
+    padding-left: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+li::marker {
+    color: var(--primary);
+}
+
+.contentbox {
+    width: 80%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: var(--primary);
+    font-weight: bold;
+    margin: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--primary);
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.submit {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: #ffffff;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 28px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.submit:active {
+    background-color: var(--secondary);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#textstuff {
+    text-indent: 24px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: var(--headerheight);
+    font-size: 20px;
+}
+
+#textstuff a {
+    color: var(--primary);
+}
+#textstuff a:visited {
+    color: var(--primary);
+}
+
+#textstuff a:active {
+    color: var(--secondary);
+}
+
+#gotoapp {
+    display: block;
+    margin: auto;
+    margin-top: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

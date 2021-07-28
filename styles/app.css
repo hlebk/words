@@ -1,0 +1,142 @@
+.choose {
+    margin: 1%;
+    width: 48%;
+    display: inline;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: var(--primary);
+    height: 80px;
+    font-size: 28px;
+}
+
+.goback {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+}
+
+#file {
+    display: block;
+    width: 100%;
+    height: 64px;
+    margin: 8px 0;
+    border-style: solid;
+    border-color: var(--margins);
+    border-width: 1px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#langorder {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+#label {
+    margin-left: 8px;
+}
+
+#reverse {
+    transform: scale(1.5);
+}
+
+#import {
+    margin-top: 5vh;
+}
+
+#flexboi {
+    display: flex;
+    border-radius: 10px;
+}
+
+#submitfile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#importwindow {
+    margin: 0;
+    padding: 0;
+}
+
+#testwindow {
+    margin-top: 5vh;
+    display: none;
+    text-align: center;
+}
+
+#question {
+    display: block;
+    font-size: 32px;
+    margin: 8px;
+}
+
+#answer {
+    height: 40px;
+    width: 160px;
+    display: block;
+    margin: auto;
+}
+
+#check {
+    margin-top: 8px;
+    width: 128px;
+}
+
+#practicewindow {
+    margin-top: 5vh;
+    display: none;
+}
+
+#words {
+    text-align: center;
+    font-size: 32px;
+}
+
+#yesorno {
+    margin-top: 16px;
+    display: flex;
+}
+
+#no {
+    background-color: #ef5350;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 4px;
+}
+
+#no:active {
+    background-color: #ff867c;
+}
+
+#yes {
+    background-color: #43a047;
+    width: 40%;
+    margin-left: 4px;
+    margin-right: 10%;
+}
+
+#yes:active {
+    background-color: #80e27e;
+}
+
+#confirmation-dialog {
+    margin-top: 10%;
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    display: none;
+}
+
+#confirm {
+    width: 100px;
+    margin-top: 8px;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Words - learn vocabulary</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/app.css" rel="stylesheet">
+    </head>
+    <body>
+        <a name="top"></a>
+        <header>
+            <button id="menu" type="button">Menu</button>
+            <p id="logotype"><a href="index.html">WORDS</a></p>
+        </header>
+        <navbar>
+                <a href="index.html">Homepage</a>
+                <a href="app.html">Application</a>
+                <a href="howto.html">How to use</a>
+        </navbar>
+        <main>
+            <div id="importwindow">
+                <div class="contentbox" id="import">
+                    <h1>Import file</h1>
+                    <input id="file" type="file">
+                </div>
+                <div class="contentbox" id="options">
+                    <h1>Settings</h1>
+                    <div id="flexboi">
+                        <button class="choose" id="practicebtn" type="button">
+                        Practice
+                        </button>
+                        <button class="choose" id="testbtn" type="button">
+                        Test
+                        </button>
+                    </div>
+                </div>
+                <div class="contentbox" id="start">
+                    <div id="langorder"><input type="checkbox" id="reverse"><span id="label">Reverse language order</span></div>
+                    <a href="#top"><button id="submitfile" class="submit" type="button">Start</button></a>
+                </div>
+            </div>
+            <div class="contentbox" id="testwindow">
+                <h1>Translate:</h1>
+                <label for="answer" id="question">placeholder</label>
+                <input type="text" id="answer" size="10" maxlength="100">
+                <button class="submit" id="check">Check</button>
+                <button class="goback submit">Go back</button>
+            </div>
+            <div class="contentbox" id="practicewindow">
+                <h1>Do you remember?</h1>
+                <p id="words">placeholder</p>
+                <div id="yesorno">
+                    <button class="submit" id="no" type="button">No</button>
+                    <button class="submit" id="yes" type="button">Yes</button>
+                    <button class="goback submit">Go back</button>
+                </div>
+            </div>
+            <div class="contentbox" id="confirmation-dialog">
+                <p id="confirmation-text">text goes here</p>
+                <button class="submit" id="confirm">Ok</button>
+            </div>
+        </main>
+        <footer>
+            <p align="center">This site does not use cookies.</p>
+        </footer>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>

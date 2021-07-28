@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Words - learn vocabulary</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <button id="menu" type="button">Menu</button>
+            <p id="logotype"><a href="index.html">WORDS</a></p>
+        </header>
+        <navbar>
+            <a href="index.html">Homepage</a>
+            <a href="app.html">Application</a>
+            <a href="howto.html">How to use</a>
+        </navbar>
+        <main>
+            <h1>How to use</h1>
+            <section id="textstuff">
+                <h2>Preparation</h2>
+                    <p>To start using this app, you have to prepare a valid text file containing words and their translations. Here is how it should look like:<br><code>
+                    to dream : śnić, marzyć<br>
+                    human : człowiek<br>
+                    flower, blossom : kwiat</code><ol>
+                    <li>The file can contain as many lines as needed.</li>
+                    <li>Each line consists of one or more words with the same meaning from both languages.</li>
+                    <li>Languages are separated by a colon.</li>
+                    <li>Synonyms are separated by a comma.</li>
+                    <li>Empty or incomplete lines are not allowed.</li>
+                    <li>File should be saved with <i>.txt</i> extension.</li></ol></p>
+                <h2>Usage</h2>
+                <ol>
+                    <li>Import your file.</li>
+                    <li>Choose one:
+                    <ul><li>Practice - <i>you will be asked if you remember a random word from your file. If you answer "yes", the word won't appear again.</i></li>
+                    <li>Test - <i>you will be prompted to write only <b>one</b> correct translation of a random word from your file. The result window will appear after all questions have been answered.</i></li></ul></li>
+                    <li>Check the checkbox below if you want to reverse the order of languages in questions.</li>
+                    <li>Click the <em>Start</em> button and enjoy.</li>
+                </ol>
+            </section>
+        </main>
+        <footer>
+            <p align="center">This site does not use cookies.</p>
+        </footer>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
