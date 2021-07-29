@@ -57,7 +57,7 @@ function validateAnswer() {
         confirmationtext.innerText = "Correct!";
         goodanswers++;
     } else {
-        confirmationtext.innerText = "Wrong!\nThe correct answer is: " + secondLangWord.join(", ");
+        confirmationtext.innerText = "Wrong!\nCorrect answer: " + secondLangWord.join(", ");
     }
 }
 
