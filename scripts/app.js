@@ -74,7 +74,7 @@ function execPractice() {
     if (indexes.length > 0) {
         randomIndex = getRandomInt(indexes.length);
         let randomWordIndex = indexes[randomIndex];
-        practicewords.innerText = words.firstLang[randomWordIndex];
+        practicewords.innerText = words.firstLang[randomWordIndex].join(", ");
         secondLangWord = words.secondLang[randomWordIndex]; //CORRECT ANSWER
     } else {
         practiceheader.innerText = "Good job!";
